@@ -1,0 +1,60 @@
+/* General Styles */
+
+*{
+  text-decoration: none;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+nav{
+  background-color: rgb(38, 168, 38);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px;
+}
+
+h3{
+  color: white;
+  font-weight: 700;
+  font-size: 1.5em;
+  padding-left: 25px;
+}
+
+.nav-links{
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.nav-links, ul, li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px;
+}
+
+ul, li, a{
+  color: white; 
+  font-weight: 400 ;
+  margin: 4px;
+}
+
+.hero{
+  justify-content: center;
+  align-items: center;
+  height: 85vh;  
+  display: flex;
+}
+
+.shop-btn{
+  background-color: rgb(235, 180, 2);
+  border: none;
+  padding: 11px;
+  /* width: 150px; */
+  font-size: 1.2em;
+}
