@@ -54,12 +54,13 @@ ul, li, a{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items:center;
+  align-items:flex-start;
   height: 60vh;  
   color:rgb(2, 24, 18) ;
-  text-align: center;
-  padding: top 5x;
-  background-image: url("../Ecommerce-Project/Ecommerce-landing-page-pic.jpg");
+  text-align: start;
+  padding: top 5px;
+  padding-bottom: 5px;
+  background-image: url("../Ecommerce-Project/picture-2.jpg");
   background-repeat: no-repeat;
    background-position: center center;
   background-size: cover; 
@@ -68,21 +69,85 @@ ul, li, a{
 h2{
   font-size: 36px;
   margin: 0;
-  padding-top: 30px;
+  padding-top: 20px;
+  padding-left: 20px;
   font-weight: 800;
+  color: white;
 }
 
 
 .shop-btn{
-  background-color: #ffa500;
+  background-color: white;
+  height: auto;
+  width: 170px;
+  color: #220466;
   border: none;
-  padding: 25px 32px;
-  font-size: 1.6em;
-  /* margin-top: 86px;
-  margin-left: 102px; */
+  padding: 15px;
+  font-size: 1em;
+  margin-top: 240px;
+  margin-left: 175px;
   cursor : pointer;
-  position: absolute;
-  top: 35%;
-  left: 46%;
+  font-weight: bolder;
+  border-radius: 12px;
+  top: 99%;
+  left: 1%;
+  
 }
+
+/* Featured Products */
+.prod{
+  padding: 20px;
+  text-align: center;
+  background: #505255;
+}
+
+.prod h3{
+  font-size: 28px;  
+  color: white;
+  margin-bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.prod-grid{
+  display: grid;
+  grid-template-columns:repeat(auto-fit, minmax(100px, 1fr));
+  column-gap: 20px;
+ 
+  }
+
+.con{
+  border: 5px solid rgb(16, 37, 68);
+  height: 350px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  padding: 0;
+}
+
+.con .pic{
+  padding: 0;
+  width: 100%;
+  height: 250px;
+}
+
+.con .pics{
+  height: 250px;
+  max-width: 100%;
+}
+
+.con p{
+  font-size: 18px;
+  margin: 10px 0;
+  color: white;
+}
+
+.con .prod-btn{
+  padding: 8px 15px;
+  background-color: white;
+  color:#2a1952 ;
+  border: none;
+  cursor: pointer;
+  font-weight: 800;
+}
+
 
