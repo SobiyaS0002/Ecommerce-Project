@@ -20,7 +20,8 @@ nav{
   align-items: center;
   padding: 1px;
   height: 10vh;  
-  width:100vh;
+  width:100vw;
+  width: 100%;
 }
 
 h3{
@@ -47,24 +48,41 @@ ul, li, a{
   margin: 4px;
 }
 
+/* Hero section */
 .hero{
-  justify-content: baseline;
-  align-items: center;
-  height: 100vh;  
-  width:100vh;
+  margin-top: 0;
   display: flex;
-  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:center;
+  height: 60vh;  
+  color:rgb(2, 24, 18) ;
+  text-align: center;
+  padding: top 5x;
+  background-image: url("../Ecommerce-Project/Ecommerce-landing-page-pic.jpg");
+  background-repeat: no-repeat;
+   background-position: center center;
+  background-size: cover; 
 }
 
-.hero-img{
-  border: none;
+h2{
+  font-size: 36px;
+  margin: 0;
+  padding-top: 30px;
+  font-weight: 800;
 }
+
 
 .shop-btn{
-  background-color: rgb(235, 180, 2);
+  background-color: #ffa500;
   border: none;
-  padding: 11px;
-  max-width: 40px;
-  font-size: 1.2em;
+  padding: 25px 32px;
+  font-size: 1.6em;
+  /* margin-top: 86px;
+  margin-left: 102px; */
+  cursor : pointer;
+  position: absolute;
+  top: 35%;
+  left: 46%;
 }
 
