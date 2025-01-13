@@ -5,17 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>E-commerce Landing Page</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="script.js">
 </head>
 <body>
   <header>
+    <script src="script.js"></script>
     <nav>
        <h3>ShopEase</h3> 
+        <div class="hamburger" aria-label="Toggle navigation">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+       
       <div class="nav-links">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="prod.html">Products</a></li>
-          <li><a href="cont.html">Contact</a></li>
           <li><a href="abt.html">About</a></li>
+          <li><a href="cont.html">Contact</a></li>
         </ul>
       
       <div class="search">
@@ -28,11 +37,11 @@
     </nav>
   </header>
   
-  <main >
+  <main>
     <section class="hero">
-      <div>
-        <h2>Discover the Best Deals Today!</h2>
-        <button class="shop-btn">Shop Now</button>
+      <div class="hero-con">
+        <h1>Discover the Best Deals Today!</h1>
+        <button type="button" class="shop-btn">Shop Now</button>
       </div>
     </section>
       
@@ -42,19 +51,19 @@
        
           <div class="con">
             <img class="pic" src="../Ecommerce-Project/Images/prod-img1.jpg" alt="Product-1">
-            <p class="prod-name">Product 1</p>
+            <p class="prod-name">Electronics</p>
               <button class="prod-btn">Buy Now</button>
           </div>  
       
           <div class="con">
             <img  class="pics" src="../Ecommerce-Project/Images/pro2.jpg">
-            <p class="prod-name">Product 2</p>
+            <p class="prod-name">Makeup</p>
              <button class="prod-btn">Buy Now</button>
           </div>
   
           <div class="con">
             <img class="pics" src="../Ecommerce-Project/Images/prod-img3.jpg" >
-            <p class="prod-name">Product 3</p>
+            <p class="prod-name">Home Appliances</p>
              <button class="prod-btn">Buy Now</button>
           </div>
         </div>
