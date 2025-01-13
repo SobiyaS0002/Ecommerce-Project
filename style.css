@@ -14,38 +14,94 @@ body{
 
 nav{
   background-color: #666;
+  color: #fff;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 1px;
-  height: 10vh;  
-  width:100vw;
+  padding: 0 50px;
+  position: fixed;
+  top: 0;
+  height: 75px;  
   width: 100%;
+  z-index: 1;
+}
+
+.nav-links{
+  flex: 1;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-left: 25px;
+}
+
+.nav-links, ul, li{
+  margin: 0 33px;
+}
+
+.nav-links ul li a{
+  color: white; 
+  font-weight: 400 ;
+  font-size: 16px;
+}
+
+.search{
+  display: flex;
+  margin-left: 230px;
+  align-items: center;
+}
+
+.search form{
+  /* display: flex;  */
+  display: inline-block;
+  margin-top: 4px;
+  align-items: center; 
+  justify-content: center;
+  margin: 0;
+}
+
+.search input{
+  padding: 8px;
+  border: 1px solid #ddd;
+  outline:none;
+  border-radius: 5px;
+  font-size: 16px;
+  
+ 
+}
+
+.search input:hover{
+  border: 1px solid #300000;
+}
+
+.go-btn{
+  padding: 8px 15px;
+  background-color: white;
+  color: #333;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 45px;
+  margin-left: 1px;
+}
+
+.go-btn:hover{
+  background-color: #ccc;
 }
 
 h3{
   color: white;
   font-weight: 700;
   font-size: 1.5em;
-  padding-left: 25px;
-}
-
-.nav-links{
-  justify-content: flex-end;
-  text-align: right;
-}
-
-.nav-links, ul, li{
-  list-style: none;
-  display: inline-block;
-  padding: 8px;
-}
-
-ul, li, a{
-  color: white; 
-  font-weight: 400 ;
-  margin: 4px;
+  margin: 0;
 }
 
 /* Hero section */
